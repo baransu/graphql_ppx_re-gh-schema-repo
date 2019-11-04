@@ -1,0 +1,23 @@
+{
+  "name": "graphql_ppx_re-gh-schema-repo",
+  "reason": { "react-jsx": 3 },
+  "refmt": 3,
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "suffix": ".bs.js",
+  "warnings": {
+    "error": "+101+102",
+    "number": "+A-40-42-4-102-41-48-30"
+  },
+  "bsc-flags": ["-open Belt"],
+  "ppx-flags": ["@baransu/graphql_ppx_re/ppx"],
+  "bs-dependencies": []
+}

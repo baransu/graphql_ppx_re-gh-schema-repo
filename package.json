@@ -1,0 +1,14 @@
+{
+  "name": "graphql_ppx_re-gh-schema-repo",
+  "version": "0.1.0",
+  "license": "MIT",
+  "devDependencies": {
+    "@baransu/graphql_ppx_re": "^0.3.2",
+    "bs-platform": "^5.2.1"
+  },
+  "scripts": {
+    "buckle:up": "bsb -make-world -w",
+    "buckle:build": "bsb -clean-world && bsb -make-world",
+    "buckle:clean": "bsb -clean-world"
+  }
+}
